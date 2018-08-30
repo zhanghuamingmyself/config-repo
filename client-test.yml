@@ -1,4 +1,4 @@
-evn : test
+env : test
 server:
   port: 8002
 spring:
@@ -20,7 +20,7 @@ spring:
     testWhileIdle: true
     testOnBorrow: false
     testOnReturn: false
-    poolPreparedStatements: true
+    poolPreparedStatements: trueenv
     filters: {stat,wall,log4j}
     maxPoolPreparedStatementPerConnectionSize: 20
     useGlobalDataSourceStat: true

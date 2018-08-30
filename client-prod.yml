@@ -1,4 +1,4 @@
-evn : prod
+env : prod
 server:
   port: 8002
 spring:

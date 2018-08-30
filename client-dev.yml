@@ -1,4 +1,4 @@
-evn : dev
+env : dev
 server:
   port: 8002
 spring:
