@@ -32,9 +32,4 @@ spring:
   redis:
     host: 192.168.15.128
     port: 6379
-eureka:
-  instance:
-    prefer-ip-address: true
-  client:
-    service-url:
-      defaultZone: http://localhost:8761/eureka/
+
