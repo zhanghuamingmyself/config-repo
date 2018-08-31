@@ -1,4 +1,4 @@
-env : dev123
+env : dev
 server:
   port: 8002
 spring:
