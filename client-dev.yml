@@ -1,6 +1,9 @@
+env : evn
 server:
   port: 8002
 spring:
+  application:
+   name: ORDER
   datasource:
     username: root
     password: 123456
