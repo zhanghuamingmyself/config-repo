@@ -1,6 +1,8 @@
 server:
   port: 8001
 spring:
+  application:
+   name: PRODUCT
   datasource:
     username: root
     password: 123456
@@ -29,7 +31,4 @@ spring:
   redis:
     host: 192.168.15.128
     port: 6379
-#use custom loadbalence
-#ORDER:
-# ribbon:
-#    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.WeightedResponseTimeRule
+
