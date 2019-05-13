@@ -1,6 +1,0 @@
-zuul:
-  routes:
-    product: /myProduct/**
-  ignored-patterns:
-   - /**/product/**
-  sensitive-headers:
